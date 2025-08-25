@@ -41,7 +41,4 @@
   <ItemGroup Condition="'$(TargetFramework)'=='netstandard2.0'">
     <PackageReference Include="System.Text.Json" Version="9.0.8" />
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="NullGuard.Fody" Version="3.1.1" PrivateAssets="all" />
-  </ItemGroup>
 </Project>
