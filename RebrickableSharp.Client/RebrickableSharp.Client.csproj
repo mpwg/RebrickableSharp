@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;netcoreapp3.0;netcoreapp3.1;net5.0;net6.0;net7.0;net9.0</TargetFrameworks>
+    <TargetFrameworks>net9.0</TargetFrameworks>
     <!-- version numbers will be updated by build -->
     <Description>Strongly-typed, easy-to-use API client for Rebrickable.</Description>
     <Summary>Strongly-typed, easy-to-use API client for Rebrickable.</Summary>
