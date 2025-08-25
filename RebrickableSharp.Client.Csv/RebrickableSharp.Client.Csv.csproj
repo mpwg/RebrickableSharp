@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFrameworks>netstandard2.0;netcoreapp3.0;netcoreapp3.1;net5.0;net6.0;net7.0;net9.0</TargetFrameworks>
@@ -41,9 +41,9 @@
 		<DefineConstants>HAVE_HTTP_CONTENT_COPY_TO_CANCELLATION_TOKEN;HAVE_STREAM_COPY_TO_ASYNC_CANCELLATION_TOKEN</DefineConstants>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="CsvHelper" Version="32.0.3" />
+		<PackageReference Include="CsvHelper" Version="33.1.0" />
 		<PackageReference Include="NullGuard.Fody" Version="3.1.1" PrivateAssets="all" />
-		<PackageReference Include="System.Linq.Async" Version="6.0.1" />
+		<PackageReference Include="System.Linq.Async" Version="6.0.3" />
 	</ItemGroup>
 	<ItemGroup>
 	  <ProjectReference Include="..\RebrickableSharp.Client\RebrickableSharp.Client.csproj" />
